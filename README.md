@@ -1,6 +1,6 @@
 # How to Write a Spelling Corrector
 
-(Peter Norvig)[http://norvig.com/], Google’s Director of Research, wrote an article explaining how to write a spelling corrector. He wrote using python in 21 lines. After this, many people implemented in other languages, I wrote in C to compare the amount of lines and speed.
+[Peter Norvig](http://norvig.com/), Google’s Director of Research, wrote an article explaining how to write a spelling corrector. He wrote using python in 21 lines. After this, many people implemented in other languages, I wrote in C to compare the amount of lines and speed.
 
 I quote some of Norvig’s paragraphs below:
 
