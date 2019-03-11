@@ -9,3 +9,7 @@ I quote some of Norvig’s paragraphs below:
 I figured they and many others could benefit from an explanation. The full details of an industrial-strength spell corrector like Google’s would be more confusing than enlightening, but I figured that on the plane flight home, in less than a page of code, I could write a toy spelling corrector that achieves 80 or 90% accuracy at a processing speed of at least 10 words per second.
 
 You can find more details in [my original post](http://marcelotoledo.com/how-to-write-a-spelling-corrector/) or [Peter Norvig's Original Post](http://norvig.com/spell-correct.html).
+
+## How to use
+
+`./spell someword`
