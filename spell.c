@@ -97,10 +97,10 @@ static int read_file(ENTRY dict)
 
         word = strtok(file, delim);
         while(word != NULL) {
-                w = strtolower(strdup(word));
+                w = strtolower(word);
 
                 if (!update(w)) {
-                        dict.key  = w;
+                        dict.key  = strdup(w);
                         dict.data = 0;
                         hsearch(dict, ENTER);
                 }
